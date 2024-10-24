@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaourmet au Catering</title>
+    
+</head>
+<body>
+
+<div id="heading">
+    <h1>Gaurmet au Catering</h1>
+    <a href= "#line" class="nav">About</a>
+    <a href="#ourmenu" class="nav">Menu</a>
+    <a href="#last" class="nav">Contact</a>
+</div>
+<div class="img">
+    <img src="burger.jpg" id="burger">
+    <h3 id="title">Le Catering</h3>
+</div>
+
+<div id="all">
+<div id="about">
+<img src="tablesetting2.jpg" id="tablesetting2">
+
+<div id="line">
+<h3 class="line1">About Catering</h3>
+
+<p class="line">The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, 
+consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+ dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor
+in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use seasonal ingredients.</p>
+
+<p class="line">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur 
+adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+</div>
+</div>
+<hr>
+
+<div id="ourmenu">
+    <div id="line2">
+    <h3 class="our menu">Our Menu </h3>
+    <p class="line4">Bread breakfast</p>
+    <p class="line5">Assortment of fresh baked fruit breads and muffins 5.50</p>
+    <p class="line4">Honey Almond Granola with Fruits</p>
+    <p class="line5">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+    <p class="line4">Belgian Waffle</p>
+    <p class="line5">Vanilla flavored batter with malted flour 7.50</p>
+    <p class="line4">Scrambled eggs</p>
+    <p class="line5">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+    <p class="line4">Blueberry Pancakes</p>
+    <p class="line5">With syrup, butter and lots of berries 8.50</p>
+    
+    
+    </div>
+    <img src="tablesetting.jpg" id="tablesetting">
+    
+</div>
+<hr>
+<div id="last">
+    
+    <h3 id="Contact">Contact</h3>
+    <p classs="cotactline">We offer full-service catering for any event, large or small. We understand your needs and we will 
+    cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us</p>
+    <p class="adress">Catering Service, 42nd Living St, 43043 New York, NY</p>
+    <p class="email">You can also contact us by phone 00553123-2323 or email catering@catering.com,
+     or you can send us a message here:</p>
+    <form action="">
+    <label for="form"></label>
+    <input type="text" class="form" placeholder="name">
+    <hr>
+    <label for="form"></label>
+    <input type="number" class="form" placeholder="number of people">
+    <hr>
+    <label for="form"></label>
+    <input type="date" class="form" placeholder="date">
+    <hr>
+    <label for="form"></label>
+    <input type="text" class="form" placeholder="Message/special request">
+    <button type="submit">Send message</button>
+    </form>
+</div> 
+</div> 
+</div> 
+</body>
+</html>
+
+<style>
+#all{
+    padding-left: 10%;
+    padding-right: 10%;
+    }
+#heading{
+    margin: 0 0 -20px 0;
+    border: 0 2px white;
+
+    font-family: 'Georgia', serif;
+} 
+.nav{
+    display: inline;
+    margin: 10px;
+    position: relative;
+    bottom: 40px;
+    left: 80%;
+    font-family: 'Georgia', serif;
+}
+#burger{
+   max-width: 100%;
+   height: auto;
+    
+} 
+#title{
+    position: relative;
+    bottom: 3em;
+    font-size: 3rem;
+    font-family: 'Georgia', serif;
+    color: rgb(68, 68, 68);
+} 
+#about{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 50px;
+    background-color: white;
+}
+
+    
+
+#line{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    max-height: 100%;
+    font-family: 'Georgia', serif;
+}
+
+#tablesetting2{
+    max-width:100% ;
+    height: auto;
+    opacity: 0.75;
+}
+.line1{
+    font-size: 2rem;
+} 
+#ourmenu{
+    font-family: 'Georgia', serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}  
+#line2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Georgia', serif;
+    margin: 20px;
+}
+#tablesetting{
+    max-width:100% ;
+    height: auto;
+    opacity: 0.75;
+}
+
+   
+
+.line4{
+    font-weight: bold;
+    margin: 10px;
+}
+.line5{
+    padding-bottom: 20px;
+    color: rgb(128, 128, 128);
+}
+#last{
+    padding: 0.01em 16px;
+    font-family: 'Georgia', serif;
+    
+}
+.adress{
+    color: rgb(93, 93, 126);
+}
+.form{
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+}
+
+</style>
